@@ -2,7 +2,7 @@ pipeline  {
      agent any
      tools{
           maven 'M2_HOME'
-          jdk 'JAVA_HOME
+          jdk 'JAVA_HOME'
      }
      environment {
              SONAR_TOKEN = credentials('sonar-token')
