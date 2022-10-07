@@ -12,7 +12,7 @@ pipeline  {
              steps{
                  echo 'Pulling...';
                  git branch: 'service/reglement' ,
-                 url : 'https://github.com/mootez-brayek/DevOps.git'
+                 url : 'https://github.com/Auckfmine/Project-Management-System.git'
              }
          }
           stage('cleaning java Project'){
