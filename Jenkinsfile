@@ -5,11 +5,10 @@ pipeline  {
           jdk 'JAVA_HOME'
      }
      environment {
-             SONAR_TOKEN = credentials('sonarqube-token')
+             SONAR_TOKEN = credentials('sonar-token')
              registry = "auckfmine/devops" 
              registryCredential = 'dockerhub_id' 
-
-        dockerImage = ''
+             dockerImage = ''
          }
      stages{
          
